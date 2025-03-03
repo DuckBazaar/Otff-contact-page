@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "serve .",
+    "build": "mkdir -p public && cp -r index.html styles.css script.js public/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -20,5 +21,8 @@
   },
   "devDependencies": {
     "@emailjs/browser": "^3.11.0"
+  },
+  "static": {
+    "directory": "public"
   }
 } 
