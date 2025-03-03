@@ -1,0 +1,24 @@
+{
+  "name": "contact-page",
+  "version": "1.0.0",
+  "description": "Contact page with email form and social links",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "contact",
+    "form",
+    "email",
+    "social"
+  ],
+  "author": "DuckBazaar",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.1"
+  },
+  "devDependencies": {
+    "@emailjs/browser": "^3.11.0"
+  }
+} 
