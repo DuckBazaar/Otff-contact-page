@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "serve .",
-    "build": "mkdir -p public && cp -r index.html styles.css script.js public/",
+    "build": "mkdir -p public/assets && cp -r index.html styles.css script.js public/ && cp -r assets/* public/assets/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
